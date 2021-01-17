@@ -13,3 +13,5 @@ movement = 1
 
 
 #endregion
+
+global.selected = 0

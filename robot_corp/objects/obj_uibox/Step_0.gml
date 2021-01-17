@@ -3,7 +3,3 @@
 if global.selected = 0 {
 	m_x = mouse_x
 }
-
-if hp <= 0{
-	instance_destroy()	
-}
