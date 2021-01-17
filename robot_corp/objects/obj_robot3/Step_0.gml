@@ -4,3 +4,7 @@ if (global.selected = 1){
 	obj_highlight.image_alpha = 0.5
 	
 }
+
+if hp <= 0{
+	instance_destroy()	
+}

@@ -10,3 +10,4 @@ inst_1C35168A.x = x + 64 // right
 inst_1C35168A.y = y // right
 inst_315736FD.y = y - 64 // top
 inst_315736FD.x = x // top
+
