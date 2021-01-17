@@ -1,5 +1,3 @@
- /// @description Insert description here
-// You can write your code in this editor
 #region DETERMINE GRID X/Y
 
 grid_x = floor(mouse_x / GRID_SIZE);
