@@ -2,22 +2,20 @@
 // You can write your code in this editor
 
 if global.player_turn = 0 {
-	if x > obj_robot3.x{
-		x -= 64	
-		left = 1
-	}
-	if x < obj_robot3.x{
-		x += 64
-		right = 1
-	}
-	if y > obj_robot3.y{
-		y -= 64
-		up = 1
-	}
-	if y < obj_robot3.y{
-		y += 64
-		down = 1
-	}
+	for (i = 0; i < 2; i += 1){
+		if x > obj_robot3.x{
+			x -= 64	
+			left = 1}
+		if x < obj_robot3.x{
+			x += 64
+			right = 1}
+		if y > obj_robot3.y{
+			y -= 64
+			up = 1}
+		if y < obj_robot3.y{
+			y += 64
+			down = 1}
+		}
 	global.player_turn = 3
 	
 }

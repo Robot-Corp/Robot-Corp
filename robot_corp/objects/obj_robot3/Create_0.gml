@@ -15,3 +15,5 @@ movement = 1
 #endregion
 
 global.selected = 0
+
+global.dead = 2
