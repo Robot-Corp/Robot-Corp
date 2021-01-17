@@ -1,5 +1,3 @@
-global.player_unit.x = x 
-global.player_unit.y = y
 global.player_unit.action_state = false
 global.player_unit = undefined
 
