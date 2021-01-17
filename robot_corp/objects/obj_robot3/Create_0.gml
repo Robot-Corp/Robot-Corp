@@ -2,7 +2,7 @@
 #region
 
 hp = 75
-attack = 200
+attack = 50
 range = 6
 movement = 1
 
@@ -13,3 +13,5 @@ movement = 1
 
 
 #endregion
+
+global.selected = 0
