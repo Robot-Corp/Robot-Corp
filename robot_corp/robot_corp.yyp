@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"show_highlight","path":"scripts/show_highlight/show_highlight.yy",},"order":1,},
     {"id":{"name":"background","path":"tilesets/background/background.yy",},"order":0,},
     {"id":{"name":"obj_editor","path":"objects/obj_editor/obj_editor.yy",},"order":1,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":8,},
@@ -20,6 +21,7 @@
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":3,},
     {"id":{"name":"spr_floor","path":"sprites/spr_floor/spr_floor.yy",},"order":6,},
     {"id":{"name":"obj_robot1","path":"objects/obj_robot1/obj_robot1.yy",},"order":0,},
+    {"id":{"name":"remove_highlight","path":"scripts/remove_highlight/remove_highlight.yy",},"order":2,},
     {"id":{"name":"spr_ui_box","path":"sprites/spr_ui_box/spr_ui_box.yy",},"order":7,},
     {"id":{"name":"spr_robot3","path":"sprites/spr_robot3/spr_robot3.yy",},"order":5,},
     {"id":{"name":"spr_enemy2","path":"sprites/spr_enemy2/spr_enemy2.yy",},"order":2,},
