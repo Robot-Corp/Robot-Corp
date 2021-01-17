@@ -9,4 +9,4 @@ if global.selected = 1 {
 	else{
 		draw_sprite(spr_info_box, 0, 716, 116)
 	}
-}
+ 
