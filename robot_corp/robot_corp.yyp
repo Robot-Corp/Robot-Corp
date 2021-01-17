@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"background","path":"tilesets/background/background.yy",},"order":0,},
     {"id":{"name":"obj_editor","path":"objects/obj_editor/obj_editor.yy",},"order":1,},
+    {"id":{"name":"spr_info_box","path":"sprites/spr_info_box/spr_info_box.yy",},"order":11,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":8,},
     {"id":{"name":"spr_robot2","path":"sprites/spr_robot2/spr_robot2.yy",},"order":4,},
     {"id":{"name":"obj_robot3","path":"objects/obj_robot3/obj_robot3.yy",},"order":6,},
