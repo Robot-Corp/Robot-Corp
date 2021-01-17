@@ -8,6 +8,7 @@
     {"id":{"name":"box","path":"scripts/box/box.yy",},"order":0,},
     {"id":{"name":"spr_robot1","path":"sprites/spr_robot1/spr_robot1.yy",},"order":0,},
     {"id":{"name":"spr_enemy1","path":"sprites/spr_enemy1/spr_enemy1.yy",},"order":1,},
+    {"id":{"name":"obj_uibox","path":"objects/obj_uibox/obj_uibox.yy",},"order":2,},
     {"id":{"name":"spr_enemy3","path":"sprites/spr_enemy3/spr_enemy3.yy",},"order":3,},
     {"id":{"name":"spr_floor","path":"sprites/spr_floor/spr_floor.yy",},"order":6,},
     {"id":{"name":"obj_robot1","path":"objects/obj_robot1/obj_robot1.yy",},"order":0,},
