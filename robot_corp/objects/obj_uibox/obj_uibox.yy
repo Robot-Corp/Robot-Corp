@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_ui_box",
-    "path": "sprites/spr_ui_box/spr_ui_box.yy",
+    "name": "spr_info_box",
+    "path": "sprites/spr_info_box/spr_info_box.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,6 +22,8 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_uibox","path":"objects/obj_uibox/obj_uibox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_uibox","path":"objects/obj_uibox/obj_uibox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_uibox","path":"objects/obj_uibox/obj_uibox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
