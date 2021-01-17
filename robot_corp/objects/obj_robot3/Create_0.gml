@@ -3,17 +3,15 @@
 
 hp = 75
 attack = 50
-range = 6
+range = 2
 movement = 1
 
 #endregion
 
-// movement and turn
-#region
+#region  // action and turn
 
+action_state = false
+global.selected = 0
+global.dead = 2
 
 #endregion
-
-global.selected = 0
-
-global.dead = 2

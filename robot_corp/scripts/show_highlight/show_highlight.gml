@@ -2,18 +2,20 @@ function show_highlight()
 {
 	for (var i = -movement; i <= movement; i++)
 	{
-		show_debug_message(instance_position(x + 64 * i, y, all))
-		if !place_meeting(x + 64 * i, y, all)
+		var x_coord = x + 64 * i
+		if (i != 0 && !place_meeting(x_coord, y, all) || place_meeting(x_coord, y, obj_tree))
 		{
-			highlight = instance_create_layer(x + 64 * i, y, "game_play", obj_highlight)
+			instance_create_layer(x_coord, y, "game_play", obj_highlight)
 		}
 	}
 	
 	for (var i = -movement; i <= movement; i++)
 	{
-		if !place_meeting(x, y + 64 * i, all)
+		var y_coord = y + 64 * i
+		if (i != 0 && !place_meeting(x, y_coord, all) || place_meeting(x, y_coord, obj_tree))  
+		// temporary fix: obj_highlight still place in the original location
 		{
-			highlight = instance_create_layer(x, y + 64 * i, "game_play", obj_highlight)
+			instance_create_layer(x, y_coord, "game_play", obj_highlight)
 		}
 	}
 }
