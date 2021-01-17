@@ -2,7 +2,8 @@ function attack_target()
 {
 	if (place_meeting(x, y, obj_enemy1))
 	{
-		show_debug_message("attack enemy " + instance_position(x, y, obj_enemy1) + " at " + x + " " + y)
+		show_debug_message("attack enemy ")
+		obj_enemy1.hp -= obj_robot3.attack
 	}
 	else
 	{

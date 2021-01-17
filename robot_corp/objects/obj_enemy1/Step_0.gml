@@ -34,5 +34,6 @@ if collision = 1{
 			y -= 64}
 }
 if hp <= 0 {
-	instance_destroy()	
+	x = -999
+	global.win = 1
 }
