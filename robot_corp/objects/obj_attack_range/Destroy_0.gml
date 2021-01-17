@@ -1,0 +1,1 @@
+remove_attack_range()
