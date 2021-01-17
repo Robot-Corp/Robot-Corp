@@ -4,6 +4,7 @@
     {"id":{"name":"background","path":"tilesets/background/background.yy",},"order":0,},
     {"id":{"name":"obj_editor","path":"objects/obj_editor/obj_editor.yy",},"order":1,},
     {"id":{"name":"hover","path":"scripts/hover/hover.yy",},"order":3,},
+    {"id":{"name":"attack_target","path":"scripts/attack_target/attack_target.yy",},"order":7,},
     {"id":{"name":"spr_info_box","path":"sprites/spr_info_box/spr_info_box.yy",},"order":11,},
     {"id":{"name":"obj_start","path":"objects/obj_start/obj_start.yy",},"order":9,},
     {"id":{"name":"obj_gameover","path":"objects/obj_gameover/obj_gameover.yy",},"order":8,},
