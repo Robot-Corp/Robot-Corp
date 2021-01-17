@@ -3,3 +3,6 @@
 if(keyboard_check_pressed(vk_space)){
 	start = 0
 }
+if keyboard_check_pressed(ord("R")){
+	rules = !rules	
+}

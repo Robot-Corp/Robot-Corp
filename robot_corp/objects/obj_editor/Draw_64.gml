@@ -5,5 +5,6 @@ draw_set_valign(fa_top);
 draw_set_font(font_stats);
 draw_text(0, 0, "grid_x: " + string(grid_x));
 draw_text(0, 20, "grid_y: " + string(grid_y));
-draw_text(0, 40, "clicked" + string(global.click));
+draw_text(0, 40, "Hp: " + string(obj_robot3.hp));
+draw_text(0, 60, "win " + string(global.win));
 #endregion

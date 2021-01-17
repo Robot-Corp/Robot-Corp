@@ -13,5 +13,6 @@ movement = 1
 action_state = false
 global.selected = 0
 global.dead = 2
-
+global.attack = 0
+global.win = 0
 #endregion
