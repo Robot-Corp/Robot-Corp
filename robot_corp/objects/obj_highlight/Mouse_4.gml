@@ -1,5 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
+global.player_unit.x = x 
+global.player_unit.y = y
+global.player_unit = undefined
+instance_destroy()
+
 if global.selected = 1{
 	if collision_point(x, y, obj_enemy1, true, true){ // if collision with an enemy
 		obj_enemy1.hp -= obj_robot3.attack
