@@ -6,3 +6,4 @@ hp = 200
 attack = 50
 movement = 3
 range = 2
+
